@@ -44,7 +44,8 @@ public class Main {
 
 
         FindSumPairs findSumPairs = new FindSumPairs();
-        findSumPairs.findSum(matrix);
+        int value = 10;
+        findSumPairs.findSum(matrix, value);
 
         System.out.println();
         System.out.println("-----------------------------------------------------------------------------------------");

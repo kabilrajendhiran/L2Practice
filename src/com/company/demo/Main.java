@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Question 1");
 
 	    RunLengthDecoding runLengthDecoding = new RunLengthDecoding();
-	    runLengthDecoding.decoding("A10C3B2D1$");
+	    runLengthDecoding.decode("A10C3B2D1$");
 
         System.out.println();
         System.out.println("-----------------------------------------------------------------------------------------");
@@ -24,7 +24,8 @@ public class Main {
 
         System.out.println("Question 3");
         SingleCharacterTraversal traversal = new SingleCharacterTraversal();
-        traversal.findFrequencyOfChar("character");
+        traversal.printFirstNonRepeatingCharacter("character");
+        traversal.printAllNonRepeatingCharacter("character");
 
         System.out.println();
         System.out.println("-----------------------------------------------------------------------------------------");
@@ -56,6 +57,10 @@ public class Main {
         int[] n = { 12,19,38,56,34,23,18,69,41,12,45,78,43,99,10};
         PatternPrinting patternPrinting = new PatternPrinting();
         patternPrinting.printPattern(n);
+
+
+
+
 
     }
 }

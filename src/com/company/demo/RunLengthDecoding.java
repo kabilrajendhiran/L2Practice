@@ -4,7 +4,7 @@ package com.company.demo;
 public class RunLengthDecoding {
 
 
-    public void decoding(String str)
+    public void decode(String str)
     {
         int i=0;
         char ch = ' ';
